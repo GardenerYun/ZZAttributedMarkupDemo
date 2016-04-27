@@ -19,7 +19,6 @@
 		5C1299CF1CD09C3700744833 /* thumbIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1299C01CD09C3700744833 /* thumbIcon.png */; };
 		5C1299D01CD09C3700744833 /* thumbIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1299C11CD09C3700744833 /* thumbIcon@2x.png */; };
 		5C1299D11CD09C3700744833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1299C31CD09C3700744833 /* ViewController.m */; };
-		5C1299D71CD09DAB00744833 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C1299D61CD09DAB00744833 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,7 +146,7 @@
 		5C1CB0781C96BB8400E755A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Zhangziyun;
 				TargetAttributes = {
 					5C1CB07F1C96BB8400E755A5 = {
@@ -180,7 +179,6 @@
 			files = (
 				5C1299C81CD09C3700744833 /* LaunchScreen.storyboard in Resources */,
 				5C1299C91CD09C3700744833 /* Main.storyboard in Resources */,
-				5C1299D71CD09DAB00744833 /* Info.plist in Resources */,
 				5C1299D01CD09C3700744833 /* thumbIcon@2x.png in Resources */,
 				5C1299CF1CD09C3700744833 /* thumbIcon.png in Resources */,
 				5C1299C51CD09C3700744833 /* Assets.xcassets in Resources */,
@@ -313,7 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/ZZAttributedMarkupDemo/Info.plist";
+				INFOPLIST_FILE = ZZAttributedMarkupDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AC.AttributedMarkupDemo;
@@ -326,7 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/ZZAttributedMarkupDemo/Info.plist";
+				INFOPLIST_FILE = ZZAttributedMarkupDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AC.AttributedMarkupDemo;
