@@ -1,0 +1,29 @@
+易行天下
+ http://www.yeexing.com/agent/directClientLogin.do             
+用户名：tianhangbox  密码： tianhang123   
+
+禅道地址
+http://192.168.0.241/zentaopms/www/index.php?m=my&f=index
+（天航科技项目管理系统）账户/密码 admin/123456
+禅道的使用手册
+http://www.zentao.net/book/zentaopmshelp.html
+
+真实环境后台
+http://tdp.tianhangbox.com/member/login?redirect=%2Fmain
+   账户，密码：admin/1qaz@WSX
+
+身份证查询
+http://www.tool7001.com/
+
+测试环境前端
+http://beta.tianhangbox.com:8080/ticket/domestic/domesticTicketBook
+测试环境后台
+http://beta.tianhangbox.com:8081/ticket/ordermanage
+       账户，密码：admin/1qaz@WSX
+
+短信平台：
+http://211.147.252.14/sms/index_ok.htm
+lv001-0047
+天航科技
+111111
+
