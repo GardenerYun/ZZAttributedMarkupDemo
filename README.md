@@ -6,8 +6,6 @@
 > **前言**
 >: **ZZAttributedMarkup是以[WPAttributedMarkup][1]为原本。因为原作者没有更新了，而我觉得这是个很好用的超小型的文字排版(CoreText)开源代码。本人只是修复了bug，整合了代码，会不断更新。我只是重新造轮子。尊重原作者，若侵即删。**
 
-[TOC]
-* [1.语法示例](#1) * [1.1图片](#1.1) * [1.2换行](#1.2) * [1.3强调](#1.3)
 
 ### ZZAttributedMarkup 是什么、能做什么。
 **关于文字排版的有很多开源代码，其实现的主要功能是高度自定义字体样式，插入图片，添加点击事件等。**如：OHAttribtuedLabel、DTCoreText、Nimbus、M80AttributedLabel、WXLabel等。有一些开源Label大致实现方法是：继承UIView（并非直接继承UILabel）创建一个子类，为其添加text、font、textColor、shadow、textAlignment、lineBreakMode等属性，然后在`- (void)drawRect:(CGRect)rect;`方法中使用CoreText和CoreGraphics，根据设置的属性要求将文本绘制出来。优点：极大化的自定义Label，灵活功能强大。缺点：不能再使用UILabel的计算文本高度，需要手写计算方法，不能根据文本内容进行autolayout布局。总的来说就是：可能会影响某些布局，不能再使用UILabel系统提供的好方法。
